@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/favicon.png" rel="icon" />
+<title>Flight Booking Invoice - Koice</title>
+<meta name="author" content="harnishdesign.net">
+
+<!-- Web Fonts
+======================= -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+
+<!-- Stylesheet
+======================= -->
+<style>
+  .text-7 {
+    font-size: 30px !important;
+    color:#0c2f54;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    color:#333;
+  }
+  table{font-family: "Poppins", sans-serif;}
+  hr{margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0.4px solid #EDEDED;}
+</style>
+</head>
+<body>
+<!-- Container -->
+<div style="">
+  <!-- Header -->
+  <header>
+  <div style="width:100%">
+    <table style="margin-top:20px;margin-bottom:20px;">
+      <tr style="margin-top:20px;padding-bottom:20px;">
+        <td>
+          <div style="width:280px;text-align:left">
+            <img id="" src="http://127.0.0.1:8000/static/images/pdf-logo.png" title="Koice" alt="Koice" />
+          </div>
+        </td>
+        <td style="text-align:right;">
+            <h4 style="padding-top:50px;" class="text-7">Invoice</h4>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+  <hr>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+  <table style="background-color:#EDEDED;padding:10px;padding-bottom:6px;">
+    <tr>
+      <td style="font-size:16px"><strong>Date:</strong> 05/12/2019</td>
+      <td style="text-align:right;font-size:16px"> <strong>Invoice No:</strong> 16835</td>
+    </tr>
+
+
+  </table>
+  <hr>
+  <br><br>
+  <table style="font-size:16px;">
+    <tr>
+      <td>
+        <div> <strong>Invoiced To:</strong>
+          <address>
+          Smith Rhodes<br />
+          15 Hodges Mews, High Wycombe<br />
+          HP12 3JL<br />
+          United Kingdom
+          </address>
+        </div>
+      </td>
+      <td>
+        <div style="text-align:right"> <strong>Pay To:</strong>
+          <address>
+          Koice Inc<br />
+          2705 N. Enterprise St<br />
+          Orange, CA 92865<br />
+    	  contact@koiceinc.com
+          </address>
+        </div>
+      </td>
+
+    </tr>
+  </table>
+  <table style="margin-top:15px;font-size:17px;">
+    <tr style="background-color:#CACACA;padding:10px;padding-bottom:5px;font-size:17px">
+      <th style="text-align:left;width:200px">Service</th>
+      <th style="text-align:left;width:250px">Description</th>
+      <th style="text-align:left">Rate</th>
+      <th style="text-align:left">QTY</th>
+      <th style="text-align:right">Amount</th>
+    </tr>
+    <tr style="padding:8px 10px;background-color:#F6F6F6;border-bottom:3px solid #ffffff">
+      <td style="text-align:left">Design Design</td>
+      <td style="text-align:left"> Creating a website design </td>
+      <td style="text-align:left">€12</td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:right">€520</td>
+    </tr>
+    <tr style="padding:8px 10px;background-color:#F6F6F6;border-bottom:3px solid #ffffff">
+      <td style="text-align:left">Design Design</td>
+      <td style="text-align:left"> Creating a website design </td>
+      <td style="text-align:left">€12</td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:right">€520</td>
+    </tr>
+    <tr style="padding:8px 10px;background-color:#F6F6F6;border-bottom:3px solid #ffffff">
+      <td style="text-align:left">Design Design</td>
+      <td style="text-align:left"> Creating a website design </td>
+      <td style="text-align:left">€12</td>
+      <td style="text-align:left">2</td>
+      <td style="text-align:right">€520</td>
+    </tr>
+    <tr style="padding:7px;padding-bottom:2px;background-color:#EDEDED;border-bottom:3px solid #E4E4E4">
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td style="text-align:right"><strong>Subtotal:</strong></td>
+      <td style="text-align:right">€520</td>
+    </tr>
+    <tr style="padding:7px;padding-bottom:2px;background-color:#EDEDED;border-bottom:3px solid #E4E4E4">
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td style="text-align:right"><strong>Tax:</strong></td>
+      <td style="text-align:right">€0</td>
+    </tr>
+    <tr style="padding:7px;padding-bottom:2px;background-color:#EDEDED;border-bottom:3px solid #E4E4E4">
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td style="text-align:right"><strong>Discount:</strong></td>
+      <td style="text-align:right">€0</td>
+    </tr>
+    <tr style="padding:7px;padding-bottom:2px;background-color:#EDEDED;border-bottom:3px solid #E4E4E4">
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td style="text-align:right;width:150px"><strong>Grand Total:</strong></td>
+      <td style="text-align:right">€520</td>
+    </tr>
+  </table>
+
+  </main>
+  <!-- Footer -->
+  <footer style="text-align:center;margin-top:30px">
+  <p style="margin-top:80px;font-size: 12px !important;font-size: 0.75rem !important;"><strong>NOTE :</strong> This is computer generated receipt and does not require physical signature.</p>
+  </footer>
+</div>
+</body>
+</html>
